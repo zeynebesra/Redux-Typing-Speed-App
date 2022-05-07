@@ -1,0 +1,91 @@
+body {
+  background-size: cover;
+  background-image: url("/public/letters-with-space-middle.jpg");
+}
+.container {
+  width: 75%;
+  margin: 3rem auto;
+}
+
+.navbar {
+  text-align: center;
+}
+
+.button1 {
+  font-family: "Lucida Sans";
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 4px;
+  width: 30%;
+  background-color: darkgreen;
+  color: white;
+}
+
+.button1:hover {
+  background-color: white; /* Green */
+  color: black;
+}
+
+.text-area {
+  margin: 20px;
+  font-family: "Lucida Sans";
+  font-size: 35px;
+}
+
+.word-section {
+  font-family: "Lucida Sans";
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: aliceblue;
+  padding: 10px;
+}
+
+.timer-section {
+  text-align: center;
+}
+
+.input-section {
+  font-family: "Lucida Sans";
+  display: block;
+  margin: 7rem auto;
+  text-align: center;
+}
+
+.input-section input {
+  font-family: "Lucida Sans";
+  width: 70%;
+  padding: 1rem;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.result-section {
+  font-family: "Lucida Sans";
+  margin: 0 auto;
+  text-align: center;
+}
+
+.word {
+  font-family: "Lucida Sans";
+  display: inline-block;
+  margin: 0.2rem;
+}
+
+.background {
+  background-color: rgb(216, 213, 213);
+}
+
+.failed {
+  background-color: rgb(228, 66, 66);
+}
+
+.successful {
+  background-color: rgb(28, 211, 28);
+}
+
+.result-box {
+  font-family: "Lucida Sans";
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+  background-color: #d7cec4;
+  padding: 10px;
+}
